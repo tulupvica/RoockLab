@@ -1,0 +1,43 @@
+.btn {
+  display: block;
+  border-radius: 2px;
+  padding: 11px 22px;
+  letter-spacing: 0.01px;
+  text-transform: uppercase;
+  font-family: "Conv_HelveticaNeueCyr-Roman",sans-serif;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.header-btn {
+  border: 2px solid $btn_color;
+  color: $btn_color;
+  background:transparent;
+  align-self: center;
+
+  &:hover {
+    background: $btn_color;
+    color: #fff;
+  }
+}
+
+.discuss__btn {
+  padding: 11px 15px;
+  width: 81px;
+  background: $btn_color;
+  color: #fff;
+  &:hover {
+    background: $btn_hover;
+  }
+}
+
+.contact__btn {
+  padding: 11px 15px;
+  width: 180px;
+  margin: 0 auto 51px;
+  background: $btn_color;
+  color: #fff;
+  &:hover {
+    background: $btn_hover;
+  }
+}

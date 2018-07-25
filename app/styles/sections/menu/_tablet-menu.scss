@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+  .menu-btn {
+    display: block;
+  }
+
+  .header__nav {
+    display: block;
+
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+
+
+}

@@ -1,0 +1,29 @@
+@media (max-width: 580px) {
+
+  .technologies__content {
+   flex-direction: column;
+  }
+
+  .technologies__title {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .technologies__item {
+    margin: 15px 43px;
+  }
+
+}
+
+@media (max-width: 414px) {
+
+  .technologies__list {
+    margin: -8px 0;
+    justify-content: center;
+  }
+
+  .technologies__item {
+    margin: 8px 30px;
+  }
+
+}

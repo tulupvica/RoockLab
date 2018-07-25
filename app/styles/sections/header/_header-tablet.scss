@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+
+  .menu-btn {
+    display: block;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 0;
+  }
+
+  .header__bl {
+    position: relative;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 14px 10px;
+
+    @media (max-width:480px) {
+      max-width: 95%;
+    }
+  }
+
+  .header__nav {
+    display: none;
+    background: rgba(238, 238, 238, 0.88);
+    width: 100%;
+  }
+
+}

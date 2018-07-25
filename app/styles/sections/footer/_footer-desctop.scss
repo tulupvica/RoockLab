@@ -1,0 +1,19 @@
+.footer {
+
+  &-wrap {
+    background: #333333;
+  }
+
+  .container {
+    @include contaiter(0 auto, 14px 10px);
+  }
+
+  &__text {
+    text-align: center;
+    opacity: 0.3;
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+}
+

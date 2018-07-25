@@ -1,0 +1,72 @@
+.contact {
+
+  background: url("../img/contact-bg.jpg") center center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 285px;
+  position: relative;
+  &:before {
+    @extend %pseudo;
+    @extend %stretch;
+    background: rgba(225, 225, 225, 0.9);
+
+  }
+
+  .container {
+    @include contaiter(0 auto, 48px 10px);
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__head {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    margin-bottom: 17px;
+  }
+
+  .socials__title {
+    text-align: center;
+    color: #333333;
+    font-family: "Conv_HelveticaNeueCyr-Bold", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .socials__list {
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    margin: 0 auto;
+  }
+
+  .socials__item {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #333333;
+    @include margin-right(5px);
+    transition: .3s;
+
+    &:hover {
+      background: $btn_color;
+    }
+  }
+
+  .socials__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 13px;
+  }
+}

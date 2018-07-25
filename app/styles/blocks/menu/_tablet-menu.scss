@@ -1,0 +1,27 @@
+
+@media (max-width: 768px) {
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__item {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.83);
+    margin-right: 0;
+
+    &:last-child {
+      border-bottom: 1px solid transparent;
+    }
+  }
+
+  .nav__link {
+    text-align: center;
+    padding: 12px 8px;
+  }
+
+
+}

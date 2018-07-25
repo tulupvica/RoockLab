@@ -1,0 +1,53 @@
+
+.discuss {
+
+  background: url("../img/discuss-bg.jpg") center center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 163px;
+
+  .container {
+    @include contaiter(0 auto, 65px 10px);
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    display: block;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: "Conv_HelveticaNeueCyr-Roman",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-right: 4%;
+  }
+
+  &__form {
+    display: flex;
+    margin-left: 2%;
+    align-self: center;
+  }
+
+  &__field {
+    display: block;
+    max-width: 218px;
+    border-radius: 2px;
+    border: 1px solid #d4d4d4;
+    background: white;
+    padding: 3px 8px;
+
+  }
+
+  &::placeholder {
+    line-height: 24px;
+    letter-spacing: 0.01px;
+    color: #333333;
+  }
+
+}

@@ -1,0 +1,30 @@
+.menu-btn {
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  @include margin-right(23px);
+}
+
+
+.nav__link {
+  display: block;
+  font-size: 14px;
+  font-family: 'Conv_HelveticaNeueCyr-Roman', sans-serif;
+  color: $main_font_color;
+  letter-spacing: 0.01px;
+  padding: 5px;
+  transition: .3s;
+
+ &:hover {
+   color: #b71319;;
+ }
+}
+
+
+
+

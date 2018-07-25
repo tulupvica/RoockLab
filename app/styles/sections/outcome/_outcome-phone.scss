@@ -1,0 +1,20 @@
+@media (max-width: 580px) {
+
+  .outcome__content {
+    flex-direction: column;
+  }
+
+
+  .outcome__title {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .outcome__text {
+    max-width: 100%;
+  }
+
+  .outcome .play-btn {
+    width: 50px;
+  }
+}

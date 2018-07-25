@@ -1,0 +1,59 @@
+//ASSETS
+//======================
+
+
+@import "slick";
+@import "fontello";
+@import "helpers/reset";
+@import "helpers/setups";
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/base";
+@import "helpers/placeholders";
+
+
+
+@import "blocks/buttons/buttons";
+
+
+
+//DESkTOP
+//=====================
+//Blocks
+@import "blocks/menu/menu-btn";
+@import "blocks/menu/desctop-menu";
+@import "blocks/popup-galerry/popup-gallery-desctop.scss";
+
+
+//Sections
+@import "sections/header/header-desctop";
+@import "sections/hero/hero-desctop";
+@import "sections/overview/overview-desctop";
+@import "sections/discuss/discuss-desctop";
+@import "sections/outcome/outcome-desctop";
+@import "sections/technologies/technologies-desctop";
+@import "sections/projects/projects-desctop";
+@import "sections/contact/contact-desctop";
+@import "sections/footer/footer-desctop";
+
+
+
+//TABLET
+//=====================
+//Blocks
+@import "blocks/menu/tablet-menu";
+
+//Sections
+@import "sections/header/header-tablet";
+@import "sections/overview/overviev-tablet";
+@import "sections/technologies/technologies-tablet";
+
+
+//PHONE
+//=====================
+@import "sections/overview/overview-phone";
+@import "sections/discuss/discuss-phone";
+@import "sections/outcome/outcome-phone";
+@import "sections/technologies/technologies-phone";
+@import "sections/projects/projects-phone";
+

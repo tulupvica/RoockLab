@@ -1,0 +1,148 @@
+extends templates/template
+
+block title
+    - let pageTitle = 'RookLab'
+
+block main
+    include blocks/popup-gallery/popup-galery
+    include sections/hero/hero
+    section.overview
+        .container
+            .overview__content
+                h2.overview__head PROJECT OVERVIEW
+                p.overview__text Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    |sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    |Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    |aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    |velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt.
+            .we-did__content
+                h2.we-did__title.title WHAT WE DID
+                .we-did__info-wrap
+                    p.we-did__info Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    p.we-did__info Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.
+                .we-did__img-wrap
+                    img.we-did__img(src='img/overview-img.png')
+    section.discuss
+        .container
+            .discuss__content
+                span.discuss__text Let's discuss your own project
+                form.discuss__form
+                    input(type='email' placeholder='Email').discuss__field
+                    button.discuss__btn.btn GO!
+    section.outcome
+        .container
+            .outcome__content
+                h2.outcome__title.title OUTCOME
+                .outcome__info
+                    p.outcome__text
+                        |Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        |sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        |inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    .outcome__img-wrap
+                        img.outcome__img(src='img/video-bg.jpg')
+                        a.play-btn
+                            img.play-btn__icon(src='img/play-btn.png')
+    section.technologies
+        .container
+            .technologies__content
+                h2.technologies__title.title
+                    |TECHNOLOGIES
+                    br
+                    |WE USE
+                .technologies__list
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/html-5.png')
+                        h4.technologies__name HTML 5
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/css3.png')
+                        h4.technologies__name CSS3
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/javascript.png')
+                        h4.technologies__name JavaScript
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/angular.png')
+                        h4.technologies__name Angular
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/python-5.png')
+                        h4.technologies__name Python
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/nodejs.png')
+                        h4.technologies__name NodeJS
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/php.png')
+                        h4.technologies__name PHP
+                    .technologies__item
+                        .technologies__img-wrap
+                            img.technologies__img(src='img/mysql.png')
+                        h4.technologies__name MySQL
+    section.projects
+        .projects-slider
+            .projects__slide
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-1.jpg')
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-2.jpg')
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-3.jpg')
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-4.jpg')
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-5.jpg')
+            .projects__slide
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-1.jpg')
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-2.jpg')
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-3.jpg')
+                .projects__img-wrap
+                    a.projects__link(href='#')
+                        i.plus
+                    img.projects__img(src='data/project-4.jpg')
+                //.projects__img-wrap
+                //    a.projects__link(href='#')
+                        i.plus
+                //    img.projects__img(src='data/project-5.jpg')
+        .projects-slider__arrows
+            .container
+                .arrows
+
+    section.contact
+        .container
+            .contact__content
+                h2.contact__head Have a question?
+                button.btn.contact__btn Let`s discuss
+                .socials
+                    h3.socials__title Follow us
+                    .socials__list
+                        a.socials__item(href='#')
+                            i.icon-facebook.socials__icon
+                        a.socials__item(href='#')
+                            i.icon-instagram.socials__icon
+                        a.socials__item(href='#')
+                            i.icon-linkedin.socials__icon
+                        a.socials__item(href='#')
+                            i.icon-github.socials__icon

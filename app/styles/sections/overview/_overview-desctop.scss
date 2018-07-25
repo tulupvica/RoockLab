@@ -1,0 +1,54 @@
+.overview {
+
+  &__content {
+    max-width: 760px;
+    margin: 0 auto 70px;
+  }
+
+  &__head {
+    color: $head_color;
+    font-family: 'Conv_HelveticaNeueCyr-Roman', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+
+  &__text {
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.07px;
+  }
+
+}
+
+.we-did {
+
+  &__title {
+    margin-right: 5%;
+  }
+
+  &__content {
+    display: flex;
+    position: relative;
+  }
+
+  &__info-wrap {
+    max-width: 42%;
+  }
+
+  &__info {
+    line-height: 23px;
+    @include margin-bottom(17px);
+  }
+
+  &__img-wrap {
+    max-width: 35%;
+    position: absolute;
+    top: -17px;
+    right: 10px;
+  }
+}

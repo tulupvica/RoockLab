@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+
+  .we-did__img-wrap {
+    max-width: 30%;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .we-did__content {
+    flex-direction: column;
+  }
+
+  .we-did__title {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .we-did__info-wrap {
+    max-width: 60%;
+  }
+
+}

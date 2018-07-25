@@ -1,0 +1,32 @@
+.header-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.header {
+  @include contaiter(0 auto, 10px 10px);
+  @extend %space-between;
+}
+
+.header__bl {
+  align-self: center;
+}
+
+.header__nav {
+  align-self: center;
+}
+
+.logo {
+  &__link {
+    display: inline-block;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
